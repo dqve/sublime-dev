@@ -14,8 +14,11 @@ To give some context, Big-O Notation or rather Big-O Time Complexity was one of 
 
 # What is Time - Complexity?
 
-Maybe you're like me and once upon a time you saw a question on leetcode that required your solution to be in O(n) and you wondered "WTH?", well those "WTH" moments will finally be behind you. 
-[Big-O]([https://en.wikipedia.org/wiki/Big_O_notation](https://en.wikipedia.org/wiki/Big_O_notation)) notation is a typical method for depicting the performance or complex nature of an algorithm in Computer Science, notation, `n` represents the number of inputs. 
+**Why should I know about Big-O?**
+
+Big-O is useful to determine the speed of your code, if you've ever thought that your code was running too slow, or maybe your code is working out great, but it’s not running as quickly as that other lengthier ones. The time complexity of your code can explain why it executes in the time it does.
+
+[Big-O](https://en.wikipedia.org/wiki/Big_O_notation) notation is a typical method for depicting the performance or complex nature of an algorithm in Computer Science, notation, `n` represents the number of inputs. 
 It is used as a gauge to test the efficiency of your code, and if it can be improved. In this article, I'd attempt to break down each Time-complexity and explain how they work in real life so that at the end of this article, you would be able to analyze pieces of code and indicate which one falls within what time complexity.
 
 # O(1) - Constant Time Complexity:
@@ -34,7 +37,7 @@ function ctcExample(n) {
 ```
 In this second example, the function `ctcExample` accepts one parameter and returns the square of it, regardless of the size of this parameter, this function will always take the same amount of time to execute.
 
-The last example, If we wad pieces of paper with names written on them spread across a table, and I tell you to pick out any name from the table, you could simply grab the first name you see from the table, no stress, this is a constant time look-up.
+The last example, if we wad pieces of paper with names written on them spread across a table, and I tell you to pick out any name from the table, you could simply grab the first name you see from the table, no stress, this is a constant time look-up.
 
 # O(N) - Linear Time Complexity:
 
@@ -51,7 +54,7 @@ The example above will have a linear time look-up since the function is looking 
 
 In our example, the look-up time is related to the size of our input because we will be looping through every item within the array. Therefore the larger the input, the greater the amount of time it takes to execute the function. Do note that if the array had only one index, it would have a constant time look-up.
 
-To further clarify, let's assume we still had pieces of paper on the table, and I asked you to pick out a specific name. You would have to look through every piece of paper until you found the one with that particular name. Now think about if this table was a very long one filled with lots of tiny pieces of paper. Your search is directly related to the number of pieces of paper on the table.
+To further clarify, let's assume we still had pieces of paper on the table, and I asked you to pick piece of paper and call out the name written on it. You would have to look through every piece of paper calling out names. Now think about if this table was a very long one filled with lots of tiny pieces of paper, that could potentially take a lot of time. Your search is directly related to the number of pieces of paper on the table.
 
 # O(log(n)) - Logarithmic Time Complexity:
 
@@ -111,5 +114,5 @@ This example implements recursion to explain how a function can be _Exponential 
 
 # Conclusion
 We've come to the end, that was intense (for me to write at least).
-The next important step in this journey is understanding the Rules of Big-O Notation which I would cover in another article soon.
+The next important step in this journey is understanding the rules of Big-O Notation which I would cover in another article soon.
 But if you'd like to improve your understanding of the topic you can check out the [**_Big-O Cheat Sheet_**](http://bigocheatsheet.com/). Cheers.
