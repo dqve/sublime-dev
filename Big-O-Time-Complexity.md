@@ -1,5 +1,7 @@
 
-To give some context, Big-O Notation or rather Big-O Time Complexity was one of the subjects I was taught back in school, but I slept through some of those classes 😅. Reading a book a while ago sparked my interest in the subject again, so I wrote this article hoping it sparks your interest in it too.
+Big-O time complexity is an important subject in computer science / software engineering that allows us to measure the time and space complexity of our code. This information helps us to optimize and determine the scalability of our code therefore inproving code efficiency.
+
+In this article I will discuss the concept of Big-O time complexity and explain the major time complexities every computer scientist / software engineer should know. I would also discuss some rules for calculating Big-O time complexity.
 
 # Table of contents
 1. What is time-complexity?
@@ -8,7 +10,8 @@ To give some context, Big-O Notation or rather Big-O Time Complexity was one of 
 4. O(log(n)) - Logarithmic Time Complexity
 5. O(N²) - Quadratic Time Complexity
 6. O(2^N) - Exponential Time Complexity
-7. Conclusion
+7. Rules of Big-O time complexity
+8. Conclusion
 
 # What is Time - Complexity?
 
