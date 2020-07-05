@@ -96,6 +96,7 @@ function qtcExample(array) {
 return false;  
 };
 ```
+
 In the example above we access our array twice (without using two for loops 😎). The for loop iterates over each item in the array and at each iteration the `if` statement checks the array to find the `indexOf` item. Therefore this produces a Quadratic Time Complexity.
 
 From the example we can see for every iteration, the inner statement runs `n` times so at the end of the outer loop the number of iterations would equate `n²` Hence, the worst-case time complexity of such an algorithm would be O(n²).
